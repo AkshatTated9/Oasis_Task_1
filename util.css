@@ -1,0 +1,21 @@
+
+.mx-auto{
+    margin:auto;
+    background-color: rgb(134, 221, 250);
+    margin-left: 38%;
+    margin-right: 38%;
+    border-radius: 10px solid black;
+}
+
+.flex 
+{
+    display: flex;
+    
+}
+.flex-col{
+    flex-direction: column;
+    padding-left: 9px ;
+    
+}
+
+

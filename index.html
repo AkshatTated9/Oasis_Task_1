@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="util.css">
+    <script src="index.js"></script>
+    
+</head>
+<body>
+    
+    <h1 class="text-center">Calculator </h1>
+    <div class="container flex flex-col items-center  mx-auto m-w-20">
+        <div class="row">
+            <input class="input" type="input" /> 
+        </div>
+        <div class="row">
+            <button class="button" onclick="clr()">C</button>
+            <button class="button" onclick="ad('%')">%</button>
+            <button class="button" onclick="ad('M+')">M+</button>
+            <button class="button" onclick="ad('M-')">M-</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="ad('7')">7</button>
+            <button class="button" onclick="ad('8')">8</button>
+            <button class="button" onclick="ad('9')">9</button>
+            <button class="button" onclick="ad('*')">*</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="ad('4')">4</button>
+            <button class="button" onclick="ad('5')">5</button>
+            <button class="button" onclick="ad('6')">6</button>
+            <button class="button" onclick="ad('/')">/</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="ad('1')">1</button>
+            <button class="button" onclick="ad('2')">2</button>
+            <button class="button" onclick="ad('3')">3</button>
+            <button class="button" onclick="ad('+')">+</button>
+        </div>
+        <div class="row">
+            <button class="button" onclick="ad('0')">0</button>
+            <button class="button" onclick="ad('.')">.</button>
+            <button class="button" onclick="calc(string)">=</button>
+            <button class="button" onclick="ad('-')">-</button>
+        </div>
+    </div>
+</body>
+
+</html>
